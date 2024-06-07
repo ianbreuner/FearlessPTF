@@ -1,0 +1,139 @@
+
+.jost-thin {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
+.yantramanav-medium {
+    font-family: "Yantramanav", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.blueFont {
+    color: #012539;
+}
+
+.navBarMain {
+    background-color: #02387B;
+}
+
+.navContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #012539;
+}
+
+.navEmail {
+    display: flex;
+    padding-right: 60px;
+}
+.navEmail > img {
+    padding-right: 5px;
+}
+.navPhone {
+    display: flex;
+    padding-right: 15px;
+}
+.navPhone > img {
+    padding-right: 5px;
+}
+.heroImg {
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.bookButton {
+    border: none;
+    background-color: #012539;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 25px;
+    transition-duration: .5s;
+}
+.bookButton:hover {
+    background-color: white;
+    color: #012539;
+}
+.darkButton {
+    border: none;
+    background-color: #012539;
+    color: white;
+    padding: 15px 32px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.lightButton {
+    border: none;
+    background-color: #97E7F5;
+    color: #012539;
+    padding: 15px 32px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg,  #4DD970, #97E7F5);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+.customNav { 
+    color: #012539 !important;
+    font-size: 20px !important;
+}
+.customFoot { 
+    color: #012539 !important;
+    font-size: 20px !important;
+}
+
+.customNav:hover {
+    color: whitesmoke !important;
+}
+
+.employee {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center
+}
+.googleMap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+.fitnessPhoto {
+    border-radius: 15px;
+}
+.fitnessOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.options {
+    align-items: center;
+    text-align: center;
+    border: solid;
+    border-width: .01px;
+    border-color: #97E7F5;
+    width: 48%;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
