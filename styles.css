@@ -97,6 +97,9 @@
     color: #012539 !important;
     font-size: 20px !important;
 }
+.bigCardHeader {
+    background-color: #012539 !important;
+}
 
 .employee {
     display: flex;
