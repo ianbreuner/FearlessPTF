@@ -93,6 +93,10 @@
 .customNav:hover {
     color: whitesmoke !important;
 }
+.customDropNav { 
+    color: #012539 !important;
+    font-size: 20px !important;
+}
 
 .employee {
     display: flex;
