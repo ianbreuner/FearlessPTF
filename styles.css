@@ -12,18 +12,18 @@
   }
 
 .blueFont {
-    color: #012539;
+    color: #18181e;
 }
 
 .navBarMain {
-    background-color: #02387B;
+    background-color: #18181e;
 }
 
 .navContact {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #012539;
+    color: #18181e;
 }
 
 .navEmail {
@@ -47,7 +47,7 @@
 
 .bookButton {
     border: none;
-    background-color: #012539;
+    background-color: #262626;
     color: white;
     padding: 10px 20px;
     font-size: 18px;
@@ -56,11 +56,11 @@
 }
 .bookButton:hover {
     background-color: white;
-    color: #012539;
+    color: #18181e;
 }
 .darkButton {
     border: none;
-    background-color: #012539;
+    background-color: #262626;
     color: white;
     padding: 15px 32px;
     font-size: 18px;
@@ -68,25 +68,25 @@
 }
 .lightButton {
     border: none;
-    background-color: #97E7F5;
-    color: #012539;
+    background-color: #c3fde6;
+    color: #18181e;
     padding: 15px 32px;
     font-size: 18px;
     border-radius: 5px;
 }
 
 .gradient-background {
-    background: linear-gradient(300deg,  #4DD970, #97E7F5);
+    background: linear-gradient(300deg,  #37f8ab, #c3fde6);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
 
 .customNav { 
-    color: #012539 !important;
+    color: #18181e !important;
     font-size: 20px !important;
 }
 .customFoot { 
-    color: #012539 !important;
+    color: #18181e !important;
     font-size: 20px !important;
 }
 
@@ -94,11 +94,11 @@
     color: whitesmoke !important;
 }
 .customDropNav { 
-    color: #012539 !important;
+    color: #18181e !important;
     font-size: 20px !important;
 }
 .bigCardHeader {
-    background-color: #012539 !important;
+    background-color: #262626 !important;
 }
 
 .employee {
