@@ -64,7 +64,12 @@
     color: white;
     padding: 15px 32px;
     font-size: 18px;
-    border-radius: 5px;
+    border-radius: 25px;
+    transition-duration: .5s;
+}
+.darkButton:hover {
+    background-color: #37f8ab;
+    color: #18181e;
 }
 .lightButton {
     border: none;
@@ -72,7 +77,12 @@
     color: #18181e;
     padding: 15px 32px;
     font-size: 18px;
-    border-radius: 5px;
+    border-radius: 25px;
+    transition-duration: .5s;
+}
+.lightButton:hover {
+    background-color: #37f8ab;
+    color: #18181e;
 }
 
 .gradient-background {
