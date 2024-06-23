@@ -1,4 +1,6 @@
-
+#grayBackground {
+    background-color: #e9e9e9;
+}
 .jost-thin {
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
@@ -86,7 +88,7 @@
 }
 
 .gradient-background {
-    background: linear-gradient(300deg,  #37f8ab, #c3fde6);
+    background: linear-gradient(300deg,  #32df9a, #b0e4cf);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
